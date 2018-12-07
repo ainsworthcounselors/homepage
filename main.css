@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Bitter', serif;
+}
+
+.navbar {
+    font-family: 'Bitter', serif;
+    background-color: salmon;
+    
+}
