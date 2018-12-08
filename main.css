@@ -43,6 +43,8 @@
     font-size: 1rem;
     margin-top: 20px;
     margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
 }
 
 .a-image {
@@ -50,6 +52,9 @@
     justify-content: center;
 }
 
+.cgcf {
+    height: 35rem;
+}
 .about-table {
     border-collapse: collapse;
     width: 80vw;
