@@ -50,6 +50,25 @@
     justify-content: center;
 }
 
+.about-table {
+    border-collapse: collapse;
+    width: 80vw;
+  }
+  
+  table, td, th {
+    border: 1px solid black;
+  }
+
+  .about-main {
+      display: flex;
+      justify-content: center;
+      margin-top: 25px;
+  }
+
+  .about-table-name {
+      font-size: 20px;
+  }
+
 /*iPhone 5 */
 @media only screen 
 and (min-device-width: 320px)
