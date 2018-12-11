@@ -61,6 +61,7 @@
 .about-table {
     border-collapse: collapse;
     width: 90vw;
+    border-color: white;
   }
   
   .about-table-name {
@@ -68,7 +69,7 @@
 }
   
   table, td, th {
-    border: 1px solid black;
+    border: 1px solid white;
   }
 
   .about-main {
@@ -83,23 +84,21 @@
     color: white;
 }
 
-table.services-table {
-    table-layout: fixed;
-    width: 80%;
-}
-
 .services-table-container {
     display: flex;
     justify-content: center;
     margin-top: 25px;
 }
 
-.video {
+.video-container {
     display: flex;
     justify-content: center;
     margin-top: 25px;
 }
  
+.button {
+    font-size: 10px;
+}
 
 /*iPhone 5 */
 @media only screen 
