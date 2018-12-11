@@ -4,6 +4,7 @@
     font-family: 'Bitter', serif;
 }
 
+
 .navbar {
     font-family: 'Bitter', serif;
     background-color: #0e0b5f;
@@ -29,20 +30,21 @@
 }
 
 .main-content-container {
-    margin: 30px;
+    padding: 30px;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    background-color: #f5fcff;
 }
 
 .heading {
     font-size: 1.75rem;
+    padding-top: 30px;
 }
 
 .content {
     font-size: 1rem;
-    margin-top: 20px;
-    margin-bottom: 30px;
+    margin-top: 10px;
     display: flex;
     justify-content: center;
 }
@@ -55,10 +57,15 @@
 .cgcf {
     height: 35rem;
 }
+
 .about-table {
     border-collapse: collapse;
-    width: 80vw;
+    width: 90vw;
   }
+  
+  .about-table-name {
+    font-size: 20px;
+}
   
   table, td, th {
     border: 1px solid black;
@@ -70,9 +77,29 @@
       margin-top: 25px;
   }
 
-  .about-table-name {
-      font-size: 20px;
-  }
+  .services-table-name {
+    font-size: 20px;
+    background-color: #0e0b5f;
+    color: white;
+}
+
+table.services-table {
+    table-layout: fixed;
+    width: 80%;
+}
+
+.services-table-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+ 
 
 /*iPhone 5 */
 @media only screen 
