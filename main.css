@@ -33,7 +33,7 @@
     padding: 30px;
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: column;#
     background-color: #f5fcff;
 }
 
@@ -66,10 +66,13 @@
   
   .about-table-name {
     font-size: 20px;
+    padding: 5px;
+    border: 1px solid white;
 }
   
-  table, td, th {
-    border: 1px solid white;
+  .align-text-top {
+    border: 1px solid #0e0b5f;
+
   }
 
   .about-main {
@@ -78,6 +81,11 @@
       margin-top: 25px;
   }
 
+  .services-table {
+    padding: 5px;
+    border: 1px solid #0e0b5f;
+
+  }
   .services-table-name {
     font-size: 20px;
     background-color: #0e0b5f;
@@ -88,6 +96,8 @@
     display: flex;
     justify-content: center;
     margin-top: 25px;
+    border: 1px solid #0e0b5f;
+
 }
 
 .video-container {
@@ -98,6 +108,22 @@
  
 .button {
     font-size: 10px;
+}
+
+.circle-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffc0c0;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    /* line-height: 100px; */
+    vertical-align: middle;
+    padding: 30px;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 /*iPhone 5 */
