@@ -47,7 +47,7 @@
     padding: 30px;
     display: flex;
     justify-content: center;
-    flex-direction: column;#
+    flex-direction: column;
     background-color: #f5fcff;
 }
 
@@ -129,7 +129,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #ffc0c0;
+    background: #95d5e9;
     width: 115px;
     height: 115px;
     border-radius: 50%;
