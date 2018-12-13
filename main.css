@@ -4,6 +4,20 @@
     font-family: 'Bitter', serif;
 }
 
+/* crf is the Counselor Request Form floating button */
+.crf {
+    width: 140px;
+    height: 140px;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    border-radius: 80% 80% 3% 80%;
+    border: thick dotted #0e0b5f;
+    background-color: #95d5e9;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
 
 .navbar {
     font-family: 'Bitter', serif;
@@ -116,8 +130,8 @@
     justify-content: center;
     align-items: center;
     background: #ffc0c0;
-    width: 100px;
-    height: 100px;
+    width: 115px;
+    height: 115px;
     border-radius: 50%;
     text-align: center;
     vertical-align: middle;
