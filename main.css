@@ -107,7 +107,8 @@
 }
  
 .button {
-    font-size: 10px;
+    font-size: 14px;
+    font-family: 'Nunito', sans-serif;
 }
 
 .circle-icon {
@@ -119,7 +120,6 @@
     height: 100px;
     border-radius: 50%;
     text-align: center;
-    /* line-height: 100px; */
     vertical-align: middle;
     padding: 30px;
     margin-left: 25px;
